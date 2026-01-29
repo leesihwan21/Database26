@@ -20,7 +20,7 @@ USE dotisql;
 
 CREATE TABLE doti_create_table (
 col_1 INT, 
-col_2 VARCHAR(50), 
+col_2 VARCHAR(50), -- var 를 붙이면 가변이라는 뜻. 무조건 50칸을 차지하지 않음. 
 col_3 DATETIME
 );
 
@@ -119,3 +119,4 @@ CREATE TABLE doit_exam_t1
 
 -- 스키마(Schemas) 란 데이터베이스의 구조와 제약 조건에 대하여 전반적인 명세를 기술.
 -- 즉, 데이터베이스를 구성하는 자료 개체의 성질, 관계, 조작, 자료값 등의 정의를 총칭.
+
